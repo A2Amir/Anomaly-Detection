@@ -29,9 +29,12 @@ Consider today’s temperature to be +20 degrees centigrade and we are in Alaska
  <p align="center">
 <img src="./img/3.jpg" alt="sequential anomalies" />
 <p align="center">
- 
-Notice:The values have not fallen outside the normal global bounds, but there are indeed abnormal points (highlighted in orange) when compared to the seasonality.
+ Notice:The values have not fallen outside the normal global bounds, but there are indeed abnormal points (highlighted 
+in orange) when compared to the seasonality.
 
- ## Anomaly detection
+ ## Anomaly detection Methods:
+ 
+The anomaly detection problem has been investigated in many diﬀerent ﬁelds of mathematics and with diﬀerent application areas. Anomaly detection was ﬁrst research in the ﬁeld of statistics as outlier detection. Lately the statistical approaches have been expanded by machine learning methods. Hodge and Austin (Victoria J. Hodge and Jim Austin. “A Survey of Outlier Detection Methodologies”. English. In: Artiﬁcial Intelligence Review 22.2 (2004), pp. 85–126) gives an extensive survey of these anomaly detection techniques. Recently other approaches have been explored such as neural networks presented by Markou ( M. Markou. “Novelty detection: a review—part 2: neural network based approaches”. English. In: Signal Processing 83.12 (2003), pp. 2499–2521.) and methods for cyber-intrusion detection.
+
  
  
