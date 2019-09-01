@@ -83,8 +83,18 @@ The majority of classiﬁcation based anomaly detection techniques runs in a sup
 * Advantages – Powerful algorithms can be used to distinguish between instances – Low time complexity of the detection phase
 * Disadvantages – Needs labelled data – Computationally heavy training phase – Usually returns binary results, i.e. no level of anomaly is available. 
 
+* Clustering based
+The clustering-based method groups similar points of the data to form clusters. The clustering-based method can be divided into three categories as they rely on diﬀerent assumptions. 
+
+The ﬁrst clustering-based method relies on the assumption that normal points belong to a cluster and anomalous points do not. Thus it is suﬃcient to determine if a point to be classiﬁed belongs to a cluster or not.
+
+The second clustering-based method relies on the assumption that normal points lie close their closest cluster centroid while anomalous points do not. In this setup, the centroids of each cluster must be calculated with respect to some measure. The distance to the closest centroid is then the anomaly score for each point. 
+
+The third clustering-based method relies on the assumption that normal data instances belong to clusters that are large and dense while anomalies either belong to clusters that are small or sparse. This technique requires the calculation of the density and size of the clusters. A point is reportedas anomalous if the density and/or size of the cluster it belongs to is below some threshold.
 
 
+* Advantages – Runs in an unsupervised environment – Low time complexity of the detection phase – Widely applicable, can be used on several data types
+* Disadvantages – Depends on the performance of the clustering algorithms – Not optimised for anomaly detection but rather to ﬁnd clusters – Computationally heavy training phase – Deﬁning distance measure is not always straightforward
 
 
 
