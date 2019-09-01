@@ -42,7 +42,7 @@ What is similar for all anomaly detection techniques is that they consists of tw
 
 The type of data available inﬂuences what anomaly techniques that can be applied. There is a main diﬀerence in the types of data,labelled or unlabelled data instances. For labelled data there are labels associated with each data point which gives information if the instance is normal or abnormal. For unlabelled data instances there is no such information. From the type of data available there are three diﬀerent approaches for the training phase:
 
-### * Supervised learning:
+* ### Supervised learning:
 When applying supervised learning the system is fed with labelled data on which the algorithm deﬁnes what is normal or not. The challenge of supervised learning is that it is usually very time consuming to label data and it is normally hard to include all types of anomalies, which is needed for the algorithm to perform well.
 
 * Advantages – Could use powerful anomaly detection techniques to learn the underlying model – Can be used when anomalies are more frequently occurring than normal instances
