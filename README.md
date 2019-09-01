@@ -51,6 +51,20 @@ When applying supervised learning the system is fed with labelled data on which 
 ### Semi-supervised learning
 When applying semi-supervised learning the system is solely fed with points of normal behaviour. This gives the system a way to learn what is normal. Similarly to the supervised learning it is hard to ﬁnd data points that cover every instance of normality
 
+* Advantages – More widely applicable than supervised learning – Does not need to specify all types of anomalies that might arise
+* Disadvantages – Might be challenging to ﬁnd normal data that covers all normal instance
+
+
+
+
+
+
+
+
+
+
+
+
 * Advantages – No labelled data needed – Widely applicable
 * Disadvantages – Relies on the assumption that normal instances are far more frequent than abnormal ones 
 
