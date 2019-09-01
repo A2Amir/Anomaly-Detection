@@ -38,18 +38,21 @@ The anomaly detection problem has been investigated in many diﬀerent ﬁelds o
 
 What is similar for all anomaly detection techniques is that they consists of two parts,atraining phase and detection phase. During the training phase,the anomaly detection uses a set of training data to deﬁne a model which speciﬁes what is considered normal and/or abnormal with respect to the training set. In the detection phase, new or incoming data is classiﬁed using the model from the training phase. 
 
-### Learning methods in anomaly detection:
+## Learning methods in anomaly detection:
 
 The type of data available inﬂuences what anomaly techniques that can be applied. There is a main diﬀerence in the types of data,labelled or unlabelled data instances. For labelled data there are labels associated with each data point which gives information if the instance is normal or abnormal. For unlabelled data instances there is no such information. From the type of data available there are three diﬀerent approaches for the training phase:
 
-* ### Supervised learning:
+### Supervised learning:
 When applying supervised learning the system is fed with labelled data on which the algorithm deﬁnes what is normal or not. The challenge of supervised learning is that it is usually very time consuming to label data and it is normally hard to include all types of anomalies, which is needed for the algorithm to perform well.
 
 * Advantages – Could use powerful anomaly detection techniques to learn the underlying model – Can be used when anomalies are more frequently occurring than normal instances
 * Disadvantages – Time consuming and sometimes impossible to label data – Hard to ﬁnd labelled data of all possible normal and abnormal instances
 
+### Semi-supervised learning
+When applying semi-supervised learning the system is solely fed with points of normal behaviour. This gives the system a way to learn what is normal. Similarly to the supervised learning it is hard to ﬁnd data points that cover every instance of normality
 
-
+* Advantages – No labelled data needed – Widely applicable
+* Disadvantages – Relies on the assumption that normal instances are far more frequent than abnormal ones 
 
  [1]: Victoria J. Hodge and Jim Austin. “A Survey of Outlier Detection Methodologies”. English. In: Artiﬁcial Intelligence Review 22.2 (2004), pp. 85–126.
  
