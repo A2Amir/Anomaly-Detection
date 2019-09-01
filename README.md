@@ -58,12 +58,8 @@ When applying semi-supervised learning the system is solely fed with points of n
 
 
 
-
-
-
-
-
-
+### Unsupervised learning
+Unsupervised learning does not use labelled data. Instead,this method assumes that the normal behaviour is the most frequently occurring. Normal instances are then deﬁned as the most frequently occurring patterns, and points or sequences deviating from these patterns are reported as anomalies.
 
 * Advantages – No labelled data needed – Widely applicable
 * Disadvantages – Relies on the assumption that normal instances are far more frequent than abnormal ones 
