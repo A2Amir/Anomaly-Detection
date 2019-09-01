@@ -70,12 +70,12 @@ In conclusion,the learning technique that can be used depends on the available d
 
 
 
-### Anomaly detection techniques
+## Anomaly detection techniques
 
 
 This section gives an overview of some of the existing anomaly detection techniques with advantages and disadvantages of each approach:
 
-* Classiﬁcation based
+### Classiﬁcation based
 
 The majority of classiﬁcation based anomaly detection techniques runs in a supervised or semi-supervised environment. It uses a training set of labelled data to learn a model or classiﬁer. This model is then used to classify new or incoming points. The classiﬁcation-based techniques rely on the assumption that it is possible to distinguish between normal and anomalous points in the given feature space. Examples of classiﬁers are Neural Networks, Bayesian Networks, Support Vector Machines, which is programmed in the jupyter notebook and Rule-based classiﬁers.
 
@@ -83,7 +83,7 @@ The majority of classiﬁcation based anomaly detection techniques runs in a sup
 * Advantages – Powerful algorithms can be used to distinguish between instances – Low time complexity of the detection phase
 * Disadvantages – Needs labelled data – Computationally heavy training phase – Usually returns binary results, i.e. no level of anomaly is available. 
 
-* Clustering based
+### Clustering based
 The clustering-based method groups similar points of the data to form clusters. The clustering-based method can be divided into three categories as they rely on diﬀerent assumptions. 
 
 The ﬁrst clustering-based method relies on the assumption that normal points belong to a cluster and anomalous points do not. Thus it is suﬃcient to determine if a point to be classiﬁed belongs to a cluster or not.
