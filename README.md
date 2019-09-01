@@ -67,6 +67,38 @@ Unsupervised learning does not use labelled data. Instead,this method assumes th
 
 
 In conclusion,the learning technique that can be used depends on the available data. If labelled data is available and  it is suﬃcient to assume that this data represents most of the instances that were given then supervised learning is the most suitable. Semi-supervised learning is used with advantage if it is easy to extract a great variety of normal instances. Unsupervised learning is the only possible alternative if none of the above is applicable.
+
+
+
+### Anomaly detection techniques
+
+
+This section gives an overview of some of the existing anomaly detection techniques with advantages and disadvantages of each approach:
+
+* Classiﬁcation based
+
+The majority of classiﬁcation based anomaly detection techniques runs in a supervised or semi-supervised environment. It uses a training set of labelled data to learn a model or classiﬁer. This model is then used to classify new or incoming points. The classiﬁcation-based techniques rely on the assumption that it is possible to distinguish between normal and anomalous points in the given feature space. Examples of classiﬁers are Neural Networks, Bayesian Networks, Support Vector Machines, which is programmed in the jupyter notebook and Rule-based classiﬁers.
+
+
+* Advantages – Powerful algorithms can be used to distinguish between instances – Low time complexity of the detection phase
+* Disadvantages – Needs labelled data – Computationally heavy training phase – Usually returns binary results, i.e. no level of anomaly is available. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  [1]: Victoria J. Hodge and Jim Austin. “A Survey of Outlier Detection Methodologies”. English. In: Artiﬁcial Intelligence Review 22.2 (2004), pp. 85–126.
  
  [2]: M. Markou. “Novelty detection: a review—part 2: neural network based approaches”. English. In: Signal Processing 83.12 (2003), pp. 2499–2521.
