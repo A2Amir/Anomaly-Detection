@@ -10,7 +10,8 @@ Anomalies are deﬁned as patterns in data that donot conform to expected or nor
  There are mainly three types of anomalies,  
  
  
-* point anomalies
+* point anomalies (global anomaly ):Point Anomalies If a single point deviates from the considered normal pattern it is referred to as a point anomaly. This is the simplest form of an anomaly and is the most researched form.
+
 * sequential anomalies 
 * contextual anomalies:
  
