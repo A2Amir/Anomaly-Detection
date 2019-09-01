@@ -34,7 +34,7 @@ in orange) when compared to the seasonality.
 
  ## Anomaly detection Methods:
  
-The anomaly detection problem has been investigated in many diﬀerent ﬁelds of mathematics and with diﬀerent application areas. Anomaly detection was ﬁrst research in the ﬁeld of statistics as outlier detection. Lately the statistical approaches have been expanded by machine learning methods. Hodge and Austin [1] gives an extensive survey of these anomaly detection techniques. Recently other approaches have been explored such as neural networks presented by Markou ( M. Markou. “Novelty detection: a review—part 2: neural network based approaches”. English. In: Signal Processing 83.12 (2003), pp. 2499–2521.) and methods for cyber-intrusion detection.
+The anomaly detection problem has been investigated in many diﬀerent ﬁelds of mathematics and with diﬀerent application areas. Anomaly detection was ﬁrst research in the ﬁeld of statistics as outlier detection. Lately the statistical approaches have been expanded by machine learning methods. Hodge and Austin [1] gives an extensive survey of these anomaly detection techniques. Recently other approaches have been explored such as neural networks presented by Markou [2]  and methods for cyber-intrusion detection.
 
- [1]: Victoria J. Hodge and Jim Austin. “A Survey of Outlier Detection Methodologies”. English. In: Artiﬁcial Intelligence Review 22.2 (2004), pp. 85–126
- 
+ [1]: Victoria J. Hodge and Jim Austin. “A Survey of Outlier Detection Methodologies”. English. In: Artiﬁcial Intelligence Review 22.2 (2004), pp. 85–126.
+ [2]: M. Markou. “Novelty detection: a review—part 2: neural network based approaches”. English. In: Signal Processing 83.12 (2003), pp. 2499–2521.
