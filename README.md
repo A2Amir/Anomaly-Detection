@@ -45,8 +45,8 @@ The type of data available inﬂuences what anomaly techniques that can be appli
 ### * Supervised learning:
 When applying supervised learning the system is fed with labelled data on which the algorithm deﬁnes what is normal or not. The challenge of supervised learning is that it is usually very time consuming to label data and it is normally hard to include all types of anomalies, which is needed for the algorithm to perform well.
 
-** Advantages – Could use powerful anomaly detection techniques to learn the underlying model – Can be used when anomalies are more frequently occurring than normal instances
-** Disadvantages – Time consuming and sometimes impossible to label data – Hard to ﬁnd labelled data of all possible normal and abnormal instances
+* Advantages – Could use powerful anomaly detection techniques to learn the underlying model – Can be used when anomalies are more frequently occurring than normal instances
+* Disadvantages – Time consuming and sometimes impossible to label data – Hard to ﬁnd labelled data of all possible normal and abnormal instances
 
 
 
