@@ -64,6 +64,9 @@ Unsupervised learning does not use labelled data. Instead,this method assumes th
 * Advantages – No labelled data needed – Widely applicable
 * Disadvantages – Relies on the assumption that normal instances are far more frequent than abnormal ones 
 
+
+
+In conclusion,the learning technique that can be used depends on the available data. If labelled data is available and  it is suﬃcient to assume that this data represents most of the instances that were given then supervised learning is the most suitable. Semi-supervised learning is used with advantage if it is easy to extract a great variety of normal instances. Unsupervised learning is the only possible alternative if none of the above is applicable.
  [1]: Victoria J. Hodge and Jim Austin. “A Survey of Outlier Detection Methodologies”. English. In: Artiﬁcial Intelligence Review 22.2 (2004), pp. 85–126.
  
  [2]: M. Markou. “Novelty detection: a review—part 2: neural network based approaches”. English. In: Signal Processing 83.12 (2003), pp. 2499–2521.
