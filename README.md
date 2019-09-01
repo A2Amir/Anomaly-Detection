@@ -29,7 +29,9 @@ Consider today’s temperature to be +20 degrees centigrade and we are in Alaska
  <p align="center">
 <img src="./img/3.jpg" alt="sequential anomalies" />
 <p align="center">
+ 
 Notice:The values have not fallen outside the normal global bounds, but there are indeed abnormal points (highlighted in orange) when compared to the seasonality.
 
+ ## Anomaly detection
  
  
