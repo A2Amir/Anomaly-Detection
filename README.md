@@ -107,7 +107,7 @@ On the other hand, non-parametric methods do not deﬁne the underlying model a 
 
 
 * Advantages – Runs in an unsupervised environment – If the statistical assumption is true, this technique provides a statistically justiﬁed solution – Low time complexity of both the training and detection phase
-Disadvantages – Relies on the assumption that data comes from the assumed statistical distribution – Hard to determine the correct test statistic to use – Multivariate anomalies might not be detected
+* Disadvantages – Relies on the assumption that data comes from the assumed statistical distribution – Hard to determine the correct test statistic to use – Multivariate anomalies might not be detected
 
 
 The most suitable anomaly detection technique to use depends on what training data is available and also what restrictions there are on the time complexity. The proposed techniques usually need some modiﬁcations when applied in a real life situation
