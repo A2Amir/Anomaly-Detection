@@ -124,5 +124,7 @@ The most suitable anomaly detection technique to use depends on what training da
  
  [2]: M. Markou. “Novelty detection: a review—part 2: neural network based approaches”. English. In: Signal Processing 83.12 (2003), pp. 2499–2521.
  
- Moa Samuelsson."Anomaly Detection In Time Series Data",Gothenburg, Sweden 2016
+ [3]:  Varun Chandola, Arindam Banerjee, and Vipin Kumar. “Anomaly Detection: A Survey”. In: ACM Comput. Surv. 41.3 (July 2009), 15:1–15:58. issn: 03600300. doi: 10.1145/1541880.1541882.
+ 
+ [4]: Moa Samuelsson."Anomaly Detection In Time Series Data",Gothenburg, Sweden 2016
 
