@@ -97,6 +97,20 @@ The third clustering-based method relies on the assumption that normal data inst
 * Disadvantages – Depends on the performance of the clustering algorithms – Not optimised for anomaly detection but rather to ﬁnd clusters – Computationally heavy training phase – Deﬁning distance measure is not always straightforward
 
 
+###  Statistical approach
+
+The statistical methods for anomaly detection rely on the assumption that "normal data instances occur in high probability regions of a stochastic model, while anomalies occur in the low probability regions of the stochastic model".
+
+The statistical methods could be divided into two types of techniques, parametric and non-parametric. The parametric techniques assume that the normal data instances are generated from a parametric distribution with parameters Θ. If the parameters are unknown, they are estimated from the training set. The anomaly score of a point x is given by the inverse of the probability density function at f(x,Θ). Statistical hypothesis test could also be used to classify data instances.
+
+On the other hand, non-parametric methods do not deﬁne the underlying model a priori, but ﬁnds the structure from the data. The simplest nonparametric technique uses histograms. A histogram is made from the training data set and the anomaly score of a point is the inverse of the height or the number of other points in the bin it falls into. This method is sensitive to the choice of the bin length.
+
+
+* Advantages – Runs in an unsupervised environment – If the statistical assumption is true, this technique provides a statistically justiﬁed solution – Low time complexity of both the training and detection phase
+* Disadvantages – Relies on the assumption that data comes from the assumed statistical distribution – Hard to determine the correct test statistic to use – Multivariate anomalies might not be detected
+
+
+The most suitable anomaly detection technique to use depends on what training data is available and also what restrictions there are on the time complexity. The proposed techniques usually need some modiﬁcations when applied in a real life situation
 
 
 
@@ -105,10 +119,12 @@ The third clustering-based method relies on the assumption that normal data inst
 
 
 
-
-
-
-
+---
  [1]: Victoria J. Hodge and Jim Austin. “A Survey of Outlier Detection Methodologies”. English. In: Artiﬁcial Intelligence Review 22.2 (2004), pp. 85–126.
  
  [2]: M. Markou. “Novelty detection: a review—part 2: neural network based approaches”. English. In: Signal Processing 83.12 (2003), pp. 2499–2521.
+ 
+ [3]:  Varun Chandola, Arindam Banerjee, and Vipin Kumar. “Anomaly Detection: A Survey”. In: ACM Comput. Surv. 41.3 (July 2009), 15:1–15:58. issn: 03600300. doi: 10.1145/1541880.1541882.
+ 
+ [4]: Moa Samuelsson."Anomaly Detection In Time Series Data",Gothenburg, Sweden 2016
+
